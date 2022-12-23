@@ -21,12 +21,18 @@ img {
 
 .container_items {
     display: flex;
-
+    align-items: center;
     padding: 15px 0;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
 }
 
 .nav_items {
     display: flex;
+    padding-left: 0;
     padding-right: 97px;
 }
 
@@ -45,6 +51,7 @@ img {
 
 .img_logo {
     margin-right: 379px;
+    max-width: 80px;
 }
 
 .header_icon {
@@ -360,14 +367,10 @@ img {
 }
 
 .features_row {
+    padding-bottom: 140px;
     display: flex;
     justify-content: space-between;
-    text-align: center;
-}
-
-.features_row_2 {
-    display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     text-align: center;
 }
 
@@ -388,4 +391,114 @@ img {
     text-align: center;
 
     color: #000000;
+}
+
+.thalby_guide {
+    padding-bottom: 102px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.voices_items {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.voices_item {
+    text-align: center;
+    align-items: center;
+    padding-right: 200px;
+}
+
+.voices_item:last-child {
+    padding-right: 0;
+}
+
+.voine_info {
+    text-align: center;
+}
+
+.voice_title {
+    max-width: 260px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.6px;
+
+    color: #000000;
+}
+
+.name_people {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.voice_link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+
+.background {
+    margin-top: -360px;
+    height: 55vh;
+    background: rgba(204, 204, 204, 0.3);
+}
+
+
+/* ======== Feedback ======= */
+
+.feedback {
+    padding-bottom: 68px;
+}
+
+.containers_items {
+
+    text-align: center;
+}
+
+.first_name {
+    border: 1px solid #000000;
+}
+
+.last_name {
+    border: 1px solid #000000;
+}
+
+.email {
+    border: 1px solid #000000;
+}
+
+a.feedback_link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.feedback_link {
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
 }
