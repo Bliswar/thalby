@@ -495,3 +495,41 @@ a.button_link {
 
     color: #FFFFFF;
 }
+
+/*   MEDIA   */
+
+
+@media screen and (max-width: 768px) {
+    .guides_items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .guide_item {
+        padding-bottom: 35px;
+    }
+    .guide_item:last-child {
+        padding-bottom: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .col {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .first_block {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .first_block_title h1 {
+        font-size: 35px;
+    }
+}
