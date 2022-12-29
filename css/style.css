@@ -1,9 +1,23 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 img {
     max-width: 100%;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* HEADER */
@@ -14,6 +28,7 @@ img {
 
 .nav_items {
     padding-left: 0;
+    margin: 0;
 }
 
 .row_header {
@@ -112,7 +127,7 @@ a.button_link {
     color: #000000;
 }
 
-.guiades_text {
+.guides_text {
     margin: 0 auto;
     padding-bottom: 47px;
     max-width: 632px;
@@ -126,7 +141,7 @@ a.button_link {
     color: #000000;
 }
 
-.guiades_text:last-child {
+.guides_text:last-child {
     padding-bottom: 158px;
 }
 
@@ -135,6 +150,348 @@ a.button_link {
 }
 
 .sellers_title {
-    max-width: 165px;
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
 }
 
+.sellers_add {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+/* SECTION PEOPLE AND SOCIETY */
+
+.people_and_society {
+    padding: 76px 0 51px 0;
+    background: rgba(204, 204, 204, 0.3);
+}
+
+.people_and_society_items {
+    display: flex;
+    align-items: center;
+}
+
+.people_img {
+    text-align: center;
+}
+
+.people_and_society_title {
+    margin: 0;
+    padding-bottom: 31px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.people_and_society_text {
+    margin: 0;
+    padding-bottom: 31px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.people_and_society_link {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+/* SECTION CULTURE AND HERITAGE */
+
+.culture_and_heritage {
+    padding: 76px 0 51px 0;
+    background: rgba(204, 204, 204, 0.6);
+}
+
+.culture_and_heritage_items {
+    display: flex;
+    align-items: center;
+}
+
+
+.culture_and_heritage_title {
+    margin: 0;
+    padding-bottom: 31px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+
+    color: #000000;
+}
+
+.culture_and_heritage_text {
+    margin: 0;
+    padding-bottom: 31px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+
+    color: #000000;
+}
+
+.culture_and_heritage_link {
+    margin-left: 475px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+
+    text-align: right;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+.culture_img {
+    text-align: center;
+}
+
+/* SECTION POWER AND POLITICS */
+
+.power_and_politics {
+    padding: 76px 0 51px 0;
+    background: rgba(204, 204, 204, 0.3);
+}
+
+.power_and_politics_items {
+    display: flex;
+    align-items: center;
+}
+
+.power_and_politics_title {
+    margin: 0;
+    padding-bottom: 31px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.power_and_politics_text {
+    margin: 0;
+    padding-bottom: 31px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.power_and_politics_link {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+.power_and_politics_img {
+    text-align: center;
+}
+
+/* FEATURESS */
+
+.features {
+    padding-top: 190px;;
+}
+
+.features_title {
+    padding-bottom: 69px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.features_items {
+    padding-bottom: 111px;
+}
+
+.features_item {
+    text-align: center;
+}
+
+.features_text {
+    padding-top: 26px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.interviws {
+    padding-bottom: 102px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.interviws_item {
+    text-align: center;
+}
+
+.interviws_title {
+    padding: 35px 0 40px 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.6px;
+
+    color: #000000;
+}
+
+.interviws_name {
+    padding-bottom: 44px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.interviws_link {
+    padding-bottom: 52px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+.background {
+    margin-top: -460px;
+    padding-bottom: 79px;
+    height: 63vh;
+    background: #F0F0F0;
+}
+
+/* FEEDBACK */
+
+.feedback {
+    padding-bottom: 88px;
+}
+
+.feedback_title {
+    padding: 79px 0 9px 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.feedback_text {
+    padding-bottom: 26px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.feedback_items {
+    padding-bottom: 16px;
+}
+
+.btn {
+    margin-left: 600px;
+    padding: 5px 30px 5px 30px;
+}
+
+/* FOOTER */
+
+.footer {
+    padding: 51px 0 16px 0;
+    background: #020202;
+}
+
+.footer_logo {
+    padding-bottom: 45px;
+}
+
+.social_icon {
+    padding: 0 20px 0 20px;
+}
+
+.social_icon:first-child {
+    padding-left: 0;
+}
+
+.footer_nav {
+    padding-right: 50px;
+}
+
+.footer_nav_items {
+    display: flex;
+    
+}
+
+.footer_nav_title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+.footer_nav_link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.nav_link_item {
+    padding-bottom: 10px;
+}
+
+.footer_autor {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
